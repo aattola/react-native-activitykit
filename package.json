@@ -1,0 +1,18 @@
+{
+  "name": "native-activitykit-app",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "start:ios": "turbo run ios --scope app",
+    "pod": "cd packages/app/ios && pod install --repo-update"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.6"
+  }
+}
