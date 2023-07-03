@@ -12,4 +12,11 @@
   RCT_EXTERN_METHOD(start:(NSString *)title
                     resolver:(RCTPromiseResolveBlock)resolve
                     rejecter:(RCTPromiseRejectBlock)reject)
+
+  RCT_EXTERN_METHOD(end:(RCTPromiseResolveBlock)resolve
+                    rejecter:(RCTPromiseRejectBlock)reject)
+
+  RCT_EXTERN_METHOD(updateActivity:(NSString *)msg
+                    resolver:(RCTPromiseResolveBlock)resolve
+                    rejecter:(RCTPromiseRejectBlock)reject)
 @end

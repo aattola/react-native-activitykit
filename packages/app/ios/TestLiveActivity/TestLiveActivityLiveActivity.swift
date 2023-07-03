@@ -9,22 +9,12 @@ import ActivityKit
 import WidgetKit
 import SwiftUI
 
-struct TestLiveActivityAttributes: ActivityAttributes {
-    public struct ContentState: Codable, Hashable {
-        // Dynamic stateful properties about your activity go here!
-        var value: Int
-    }
-
-    // Fixed non-changing properties about your activity go here!
-    var name: String
-}
-
 struct TestLiveActivityLiveActivity: Widget {
     var body: some WidgetConfiguration {
-        ActivityConfiguration(for: TestLiveActivityAttributes.self) { context in
+        ActivityConfiguration(for: NotificationAttributes.self) { context in
             // Lock screen/banner UI goes here
             VStack {
-                Text("Hello")
+              Text(context.state.mesage)
             }
             .activityBackgroundTint(Color.cyan)
             .activitySystemActionForegroundColor(Color.black)
@@ -40,7 +30,7 @@ struct TestLiveActivityLiveActivity: Widget {
                     Text("Trailing")
                 }
                 DynamicIslandExpandedRegion(.bottom) {
-                    Text("Bottom")
+                  Text(context.state.mesage)
                     // more content
                 }
             } compactLeading: {
@@ -57,8 +47,8 @@ struct TestLiveActivityLiveActivity: Widget {
 }
 
 struct TestLiveActivityLiveActivity_Previews: PreviewProvider {
-    static let attributes = TestLiveActivityAttributes(name: "Me")
-    static let contentState = TestLiveActivityAttributes.ContentState(value: 3)
+    static let attributes = NotificationAttributes(title: "Moi")
+    static let contentState = NotificationAttributes.ContentState(mesage: "tereve message")
 
     static var previews: some View {
         attributes
