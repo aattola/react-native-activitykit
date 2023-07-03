@@ -14,6 +14,15 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		331994862A52ED4900FE836F /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331994852A52ED4900FE836F /* Activity.swift */; };
 		331994882A52ED7800FE836F /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 331994872A52ED7800FE836F /* Activity.m */; };
+		3319948F2A52F1B600FE836F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3319948E2A52F1B600FE836F /* WidgetKit.framework */; };
+		331994912A52F1B600FE836F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331994902A52F1B600FE836F /* SwiftUI.framework */; };
+		331994942A52F1B600FE836F /* TestLiveActivityBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331994932A52F1B600FE836F /* TestLiveActivityBundle.swift */; };
+		331994962A52F1B600FE836F /* TestLiveActivityLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331994952A52F1B600FE836F /* TestLiveActivityLiveActivity.swift */; };
+		331994982A52F1B600FE836F /* TestLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331994972A52F1B600FE836F /* TestLiveActivity.swift */; };
+		3319949B2A52F1B800FE836F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3319949A2A52F1B800FE836F /* Assets.xcassets */; };
+		3319949D2A52F1B800FE836F /* TestLiveActivity.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 331994992A52F1B600FE836F /* TestLiveActivity.intentdefinition */; };
+		3319949E2A52F1B800FE836F /* TestLiveActivity.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 331994992A52F1B600FE836F /* TestLiveActivity.intentdefinition */; };
+		331994A12A52F1B800FE836F /* TestLiveActivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3319948D2A52F1B600FE836F /* TestLiveActivityExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7699B88040F8A987B510C191 /* libPods-app-appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-app-appTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -26,7 +35,28 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = app;
 		};
+		3319949F2A52F1B800FE836F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3319948C2A52F1B600FE836F;
+			remoteInfo = TestLiveActivityExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		331994A52A52F1B800FE836F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				331994A12A52F1B800FE836F /* TestLiveActivityExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +72,15 @@
 		331994842A52ED4800FE836F /* app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "app-Bridging-Header.h"; sourceTree = "<group>"; };
 		331994852A52ED4900FE836F /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		331994872A52ED7800FE836F /* Activity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
+		3319948D2A52F1B600FE836F /* TestLiveActivityExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestLiveActivityExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3319948E2A52F1B600FE836F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		331994902A52F1B600FE836F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		331994932A52F1B600FE836F /* TestLiveActivityBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLiveActivityBundle.swift; sourceTree = "<group>"; };
+		331994952A52F1B600FE836F /* TestLiveActivityLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLiveActivityLiveActivity.swift; sourceTree = "<group>"; };
+		331994972A52F1B600FE836F /* TestLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLiveActivity.swift; sourceTree = "<group>"; };
+		331994992A52F1B600FE836F /* TestLiveActivity.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TestLiveActivity.intentdefinition; sourceTree = "<group>"; };
+		3319949A2A52F1B800FE836F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3319949C2A52F1B800FE836F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.debug.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.release.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-app-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-appTests.debug.xcconfig"; path = "Target Support Files/Pods-app-appTests/Pods-app-appTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +104,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-app.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3319948A2A52F1B600FE836F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331994912A52F1B600FE836F /* SwiftUI.framework in Frameworks */,
+				3319948F2A52F1B600FE836F /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +158,23 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-app.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-app-appTests.a */,
+				3319948E2A52F1B600FE836F /* WidgetKit.framework */,
+				331994902A52F1B600FE836F /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		331994922A52F1B600FE836F /* TestLiveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				331994932A52F1B600FE836F /* TestLiveActivityBundle.swift */,
+				331994952A52F1B600FE836F /* TestLiveActivityLiveActivity.swift */,
+				331994972A52F1B600FE836F /* TestLiveActivity.swift */,
+				331994992A52F1B600FE836F /* TestLiveActivity.intentdefinition */,
+				3319949A2A52F1B800FE836F /* Assets.xcassets */,
+				3319949C2A52F1B800FE836F /* Info.plist */,
+			);
+			path = TestLiveActivity;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -127,6 +190,7 @@
 				13B07FAE1A68108700A75B9A /* app */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* appTests */,
+				331994922A52F1B600FE836F /* TestLiveActivity */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -141,6 +205,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* app.app */,
 				00E356EE1AD99517003FC87E /* appTests.xctest */,
+				3319948D2A52F1B600FE836F /* TestLiveActivityExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,15 +257,34 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				331994A52A52F1B800FE836F /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				331994A02A52F1B800FE836F /* PBXTargetDependency */,
 			);
 			name = app;
 			productName = app;
 			productReference = 13B07F961A680F5B00A75B9A /* app.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3319948C2A52F1B600FE836F /* TestLiveActivityExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331994A22A52F1B800FE836F /* Build configuration list for PBXNativeTarget "TestLiveActivityExtension" */;
+			buildPhases = (
+				331994892A52F1B600FE836F /* Sources */,
+				3319948A2A52F1B600FE836F /* Frameworks */,
+				3319948B2A52F1B600FE836F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestLiveActivityExtension;
+			productName = TestLiveActivityExtension;
+			productReference = 3319948D2A52F1B600FE836F /* TestLiveActivityExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,6 +292,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -216,6 +301,9 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1430;
+					};
+					3319948C2A52F1B600FE836F = {
+						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
@@ -234,6 +322,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* app */,
 				00E356ED1AD99517003FC87E /* appTests */,
+				3319948C2A52F1B600FE836F /* TestLiveActivityExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +341,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3319948B2A52F1B600FE836F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3319949B2A52F1B800FE836F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +519,20 @@
 			files = (
 				331994862A52ED4900FE836F /* Activity.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				3319949E2A52F1B800FE836F /* TestLiveActivity.intentdefinition in Sources */,
 				331994882A52ED7800FE836F /* Activity.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331994892A52F1B600FE836F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331994942A52F1B600FE836F /* TestLiveActivityBundle.swift in Sources */,
+				3319949D2A52F1B800FE836F /* TestLiveActivity.intentdefinition in Sources */,
+				331994982A52F1B600FE836F /* TestLiveActivity.swift in Sources */,
+				331994962A52F1B600FE836F /* TestLiveActivityLiveActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +543,11 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* app */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		331994A02A52F1B800FE836F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3319948C2A52F1B600FE836F /* TestLiveActivityExtension */;
+			targetProxy = 3319949F2A52F1B800FE836F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -460,7 +574,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffe.LiveTest.appTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app.app/app";
 			};
@@ -485,7 +599,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffe.LiveTest.appTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app.app/app";
 			};
@@ -495,11 +609,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-app.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = app/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveAct;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,7 +626,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffe.LiveTest;
 				PRODUCT_NAME = app;
 				SWIFT_OBJC_BRIDGING_HEADER = "app-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -523,10 +639,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-app.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = app/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveAct;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,11 +655,89 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffe.LiveTest;
 				PRODUCT_NAME = app;
 				SWIFT_OBJC_BRIDGING_HEADER = "app-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		331994A32A52F1B800FE836F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestLiveActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TestLiveActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffe.LiveTest.TestLiveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		331994A42A52F1B800FE836F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestLiveActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TestLiveActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffe.LiveTest.TestLiveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -701,6 +897,15 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331994A22A52F1B800FE836F /* Build configuration list for PBXNativeTarget "TestLiveActivityExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331994A32A52F1B800FE836F /* Debug */,
+				331994A42A52F1B800FE836F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
